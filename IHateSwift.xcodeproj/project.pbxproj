@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		454EF016193D44C5004C0D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EF015193D44C5004C0D6B /* AppDelegate.swift */; };
-		454EF018193D44C5004C0D6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EF017193D44C5004C0D6B /* ViewController.swift */; };
-		454EF01B193D44C5004C0D6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454EF019193D44C5004C0D6B /* Main.storyboard */; };
 		454EF01D193D44C5004C0D6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454EF01C193D44C5004C0D6B /* Images.xcassets */; };
 		454EF029193D44C5004C0D6B /* IHateSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EF028193D44C5004C0D6B /* IHateSwiftTests.swift */; };
+		454EF060193D4617004C0D6B /* FirstSwiftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EF05D193D4617004C0D6B /* FirstSwiftTableViewController.swift */; };
+		454EF061193D4617004C0D6B /* SecondSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EF05E193D4617004C0D6B /* SecondSwiftViewController.swift */; };
+		454EF062193D4617004C0D6B /* SwiftNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454EF05F193D4617004C0D6B /* SwiftNavigationController.swift */; };
+		454EF064193D462D004C0D6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454EF063193D462D004C0D6B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +30,14 @@
 		454EF010193D44C5004C0D6B /* IHateSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHateSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454EF014193D44C5004C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		454EF015193D44C5004C0D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		454EF017193D44C5004C0D6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		454EF01A193D44C5004C0D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		454EF01C193D44C5004C0D6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		454EF022193D44C5004C0D6B /* IHateSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHateSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		454EF027193D44C5004C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		454EF028193D44C5004C0D6B /* IHateSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHateSwiftTests.swift; sourceTree = "<group>"; };
+		454EF05D193D4617004C0D6B /* FirstSwiftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstSwiftTableViewController.swift; sourceTree = "<group>"; };
+		454EF05E193D4617004C0D6B /* SecondSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondSwiftViewController.swift; sourceTree = "<group>"; };
+		454EF05F193D4617004C0D6B /* SwiftNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNavigationController.swift; sourceTree = "<group>"; };
+		454EF063193D462D004C0D6B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				454EF015193D44C5004C0D6B /* AppDelegate.swift */,
-				454EF017193D44C5004C0D6B /* ViewController.swift */,
-				454EF019193D44C5004C0D6B /* Main.storyboard */,
+				454EF05D193D4617004C0D6B /* FirstSwiftTableViewController.swift */,
+				454EF05E193D4617004C0D6B /* SecondSwiftViewController.swift */,
+				454EF05F193D4617004C0D6B /* SwiftNavigationController.swift */,
+				454EF063193D462D004C0D6B /* Main.storyboard */,
 				454EF01C193D44C5004C0D6B /* Images.xcassets */,
 				454EF013193D44C5004C0D6B /* Supporting Files */,
 			);
@@ -189,8 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				454EF01B193D44C5004C0D6B /* Main.storyboard in Resources */,
 				454EF01D193D44C5004C0D6B /* Images.xcassets in Resources */,
+				454EF064193D462D004C0D6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +214,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				454EF018193D44C5004C0D6B /* ViewController.swift in Sources */,
+				454EF060193D4617004C0D6B /* FirstSwiftTableViewController.swift in Sources */,
 				454EF016193D44C5004C0D6B /* AppDelegate.swift in Sources */,
+				454EF061193D4617004C0D6B /* SecondSwiftViewController.swift in Sources */,
+				454EF062193D4617004C0D6B /* SwiftNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,17 +238,6 @@
 			targetProxy = 454EF023193D44C5004C0D6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		454EF019193D44C5004C0D6B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				454EF01A193D44C5004C0D6B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		454EF02A193D44C5004C0D6B /* Debug */ = {
@@ -397,6 +394,7 @@
 				454EF02E193D44C5004C0D6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		454EF02F193D44C5004C0D6B /* Build configuration list for PBXNativeTarget "IHateSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +403,7 @@
 				454EF031193D44C5004C0D6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
